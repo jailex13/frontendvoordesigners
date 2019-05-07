@@ -11,3 +11,9 @@ om er voor te zorgen dan de gebruikers het gevoel te laten behouden dat zij de c
 ### Strong visual hierarchies work best
 
 voor een sterke hierarchie heb ik geprobeerd om voornamelijk de druk te leggen op de lijst met films zelf. Zo zijn deze groot en neemt het een groot deel van de pagina in beslag. 
+
+#### versies
+
+ik ben vergeten om meerdere bestanden te maken voor verschillende versies en ben zo helaas steeds door gegaan in het zelfde bestand. na het testen van mijn eerste versie ben ik er echter wel achter gekomen dat de micro interactie van het bolletje die naar de link voor de favorieten lijst schiet niet perfekt werkte en niet goed naar de juiste positie vloog. Dit is later aangepast. 
+
+BIj versie 2 heb het niet voor elkaar gekregen om elke film individueel te laten reageren op de "like" knop. zo wordt niet elk hartje rood nadat er op wordt geklikt en schiet er ook geen balletje naar de link voor de favorieten pagina.
