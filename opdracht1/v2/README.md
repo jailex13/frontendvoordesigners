@@ -1,4 +1,4 @@
-# opdracht 1: filmlijst
+# opdracht 1: filmlijst voor mobiel
 
 ## Frontend For Designers
 
