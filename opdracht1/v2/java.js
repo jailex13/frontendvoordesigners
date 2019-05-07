@@ -12,7 +12,21 @@ downloadicoon.addEventListener('click', function () {
     console.log("HEEEELLLOO");
 });
 
+var likeButton = document.querySelectorAll(".add");
 
+
+for (var i = 0; i < likeButton.length; i++) {
+    likeButton[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        countLike();
+    });
+}
+
+function countLike() {
+  var likes = document.querySelectorAll(".add.active").length;
+
+  document.querySelector(".counter").innerHTML = likes;
+}
 
 //var button = document.getElementById("clickme"),
 //    count = 0;
@@ -66,6 +80,6 @@ var likeButton = document.querySelectorAll(".like-button");
 function countLike() {
   var likes = document.querySelectorAll(".like-button.active").length;
 
-  //insert lenght to html
+  insert lenght to html
   document.querySelector(".counter").innerHTML = likes;
 }*/

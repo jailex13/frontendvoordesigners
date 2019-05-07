@@ -32,7 +32,7 @@ img[alt="favorieten lijst"] {
     max-height: 100%;
 }
 
-img[alt="harry potter and the philosophers stone"] {
+.filmslijst {
     width: 100%;
 }
 
@@ -45,16 +45,12 @@ article {
 }
 
 article h2 {
+
     color: white;
     font-size: 4em;
 }
 
-img[alt="aan favorieten toevoegen"] {
-position: absolute;
-    max-width: 10%;
-    margin-left: 40em;
-    margin-top: 1em;
-}
+
 
 
 /* micro interactie dowloaden*/
@@ -109,7 +105,7 @@ ul div.laadbalk {
     position: absolute;
     display: flex;
     justify-content: center;
-    background-color: yellow;
+    background-color: orange;
     border-radius: 30px;
 
 }
@@ -126,13 +122,13 @@ ul div.openDelay {
         height: 2em;
         width: 2em;
         margin-top: 0.5em;
-        margin-left: 45em;
+        margin-left: 42em;
     }
     10% {
         height: 2em;
         width: 2em;
         margin-top: 0.5em;
-        margin-left: 45em;
+        margin-left: 42em;
     }
     11% {
         height: 2em;
@@ -162,6 +158,9 @@ svg {
     width: 5em;
 }
 
-teller {
+button {
+    position: absolute;
+    margin-left: 57em;
+    margin-top: -10em;
 
 }
