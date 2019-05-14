@@ -1,0 +1,35 @@
+img {
+    margin-left: 15em;
+    margin-top: 30em;
+    width: 30em;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rechts {
+    animation: draairechts 2s;
+}
+
+@keyframes draairechts {
+    0% {}
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.links {
+    animation: draailinks 2s;
+}
+
+@keyframes draailinks {
+    0% {}
+
+    100% {
+        transform: rotate(-360deg);
+
+    }
+}
