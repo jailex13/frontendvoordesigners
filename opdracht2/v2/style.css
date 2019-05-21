@@ -1,0 +1,49 @@
+img {
+    margin-left: 15em;
+    margin-top: 30em;
+    width: 30em;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: -2em;
+    margin-top: 3em;
+}
+
+.rechts {
+    animation: draairechts 2s;
+}
+
+@keyframes draairechts {
+    0% {}
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.links {
+    animation: draailinks 2s;
+}
+
+@keyframes draailinks {
+    0% {}
+
+    100% {
+        transform: rotate(-360deg);
+
+    }
+}
+
+
+button{
+    margin-top: 10em;
+    width: 10em;
+    height: 5em;
+}
