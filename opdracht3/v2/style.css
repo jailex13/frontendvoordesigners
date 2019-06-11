@@ -80,7 +80,7 @@ svg {
     border-color: orange;
     border-width: 0.3em;
     position: absolute;
-    margin-top: 132.5em;
+    margin-top: 141.5em;
     margin-left: 8em;
 }
 
@@ -126,4 +126,11 @@ svg {
   margin-top: -50px;
   margin-left: -100px;
 width: 15em;
+}
+
+#L {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: -2em;
 }
